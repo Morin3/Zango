@@ -1,4 +1,4 @@
-FROM python:3.14.0rc2-slim-trixie
+FROM python:3.14.0-slim-trixie
 RUN  apt-get update
 RUN  apt-get install -y libxml2-dev libxmlsec1-dev libxmlsec1-openssl
 COPY . /zango/
